@@ -4,7 +4,10 @@
     box-sizing: border-box;
 }
 
-body, button, input, textarea {
+body,
+button,
+input,
+textarea {
     font-family: "Quicksand", sans-serif;
 }
 
@@ -13,13 +16,14 @@ html {
     overflow-x: hidden;
 }
 
-:root{
-    --dark-one: #333; <!-- #fff -->
-    --dark-two: #7a7a7a;
+:root {
+    --dark-one: #333;
+    < !-- #fff -->--dark-two: #7a7a7a;
     --main-color: #784cfb;
     --light-one: #fff;
     --light-two: #f9fafb;
-    --light-three: #f6f7fb; <!-- #202020 -->
+    --light-three: #f6f7fb;
+    < !-- #202020 -->
 }
 
 .header {
@@ -118,7 +122,8 @@ html {
 
 .section.skills .card-img-top {
     width: 90px;
-    margin-bottom: 1.7rem;;
+    margin-bottom: 1.7rem;
+    ;
 }
 
 .card {
@@ -262,7 +267,7 @@ hr {
     transition: .3s;
 }
 
-.filter-btn.active  {
+.filter-btn.active {
     background: var(--main-color);
     color: var(--light-one)
 }
@@ -322,7 +327,8 @@ hr {
     margin: auto 0;
 }
 
-.plus:before, .plus:after {
+.plus:before,
+.plus:after {
     content: '';
     position: absolute;
     width: 4.5rem;
@@ -342,7 +348,7 @@ hr {
     width: 100%;
 }
 
-.gallery-image:hover .img-overlay{
+.gallery-image:hover .img-overlay {
     opacity: 1;
 }
 
@@ -350,14 +356,10 @@ hr {
     transform: translate(-50%, -50%) scale(1.1);
 }
 
-/* Rounded image, my bird */
-.custom-circle-image {
-    width: 25vw;
-    height: 25vw;
-}
-
-.custom-circle-image img {
-    object-fit: cover;
+/* My birds section */
+.my-bird-img {
+    width: 100%;
+    padding: 1rem;
 }
 
 @media screen and (max-width: 600px) {
@@ -369,12 +371,12 @@ hr {
         display: block;
     }
 
-    .header-title{
+    .header-title {
 
         text-align: center;
     }
 
-    .text  {
+    .text {
         text-align: center;
     }
 }
@@ -388,11 +390,11 @@ hr {
         display: block;
     }
 
-    .header-title{
+    .header-title {
         text-align: center;
     }
 
-    .text  {
+    .text {
 
         text-align: center;
     }
@@ -405,4 +407,3 @@ a {
 a:hover {
     color: var(--main-color)
 }
-
