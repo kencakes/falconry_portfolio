@@ -350,14 +350,22 @@ hr {
     transform: translate(-50%, -50%) scale(1.1);
 }
 
-/* Rounded image, my bird */
-.custom-circle-image {
-    width: 25vw;
-    height: 25vw;
+.my-bird-img {
+    position: relative;
+    overflow: hidden;
+    /*border-radius: 16px;*/
+    height: 500px;
+    width: 100%;
+    margin-bottom: 2rem;
 }
 
-.custom-circle-image img {
-    object-fit: cover;
+.my-bird-img img {
+    position: absolute;
+    height: 115%;
+    width: initial;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 @media screen and (max-width: 600px) {
