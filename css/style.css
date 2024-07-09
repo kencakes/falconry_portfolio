@@ -388,6 +388,10 @@ hr {
   .text {
     text-align: center;
   }
+
+  .grid-item {
+    width: 100%; /* Two items per row on medium screens */
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -405,6 +409,11 @@ hr {
 
   .text {
     text-align: center;
+  }
+
+  .grid-item {
+    width: 50%; /* Two items per row on medium screens */
+    padding: 1rem;
   }
 }
 
